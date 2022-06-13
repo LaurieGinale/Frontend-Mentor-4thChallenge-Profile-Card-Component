@@ -22,7 +22,7 @@
 ### Links
 
 - Solution URL: https://github.com/LaurieGinale/Frontend-Mentor-4thChallenge-Profile-Card-Component
-- Live Site URL: Soon to come
+- Live Site URL:  https://laurieginale.github.io/Frontend-Mentor-4thChallenge-Profile-Card-Component/
 
 ## My process
 
