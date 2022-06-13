@@ -1,0 +1,122 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #19a2ae;
+  height: 100vh;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 50vw top 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+.card {
+  background-color: white;
+  width: 23rem;
+  height: 25rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.deco {
+  width: 100%;
+  height: 150px;
+}
+
+.name-container {
+  margin-top: 4.5rem;
+  text-align: center;
+}
+
+.name-container .picture {
+  position: absolute;
+  top: 23%;
+  left: 35%;
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 115px;
+  width: 115px;
+}
+
+.name-container h1 {
+  font-size: 1.2rem;
+  color: #2d3248;
+}
+
+.name-container span {
+  font-weight: 400;
+  color: #969696;
+}
+
+.name-container p {
+  color: #969696;
+  font-size: 1rem;
+  line-height: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.stats-container {
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+  height: auto;
+  padding: 1.6rem 1.4rem 0 1.4rem;
+  vertical-align: bottom;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1.5rem;
+}
+
+.stats-figures {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #2d3248;
+}
+
+.stats-units {
+  font-size: 0.7rem;
+  color: #969696;
+  letter-spacing: 0.1rem;
+}
+/*# sourceMappingURL=style.css.map */
