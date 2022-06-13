@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: Soon to come
+- Solution URL: https://github.com/LaurieGinale/Frontend-Mentor-4thChallenge-Profile-Card-Component
 - Live Site URL: Soon to come
 
 ## My process
